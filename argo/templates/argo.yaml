@@ -6,10 +6,9 @@ metadata:
 spec:
   project: default
   sources:
-    - chart: argo-cd
-      repoURL: https://github.com/sekthor/tf-lab
+    - repoURL: https://github.com/sekthor/tf-lab.git
       path: argo
-      targetRevision: HEAD
+      targetRevision: main
       helm:
         releaseName: argocd
   destination:
